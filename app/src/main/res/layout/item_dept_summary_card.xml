@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_columnWeight="1"
+    android:layout_margin="8dp"
+    app:cardBackgroundColor="@color/card_bg"
+    app:cardCornerRadius="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvDeptNameSummary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Engineering"
+            android:textColor="#3B82F6" 
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvEmployeeCountSummary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="87 Employees"
+            android:textColor="@color/gray_light" />
+
+        <TextView
+            android:id="@+id/tvPerformanceRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="★★★★☆"
+            android:textColor="@color/yellow_500" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

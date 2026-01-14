@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    app:cardBackgroundColor="@color/card_bg"
+    app:cardCornerRadius="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/tvDeptName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Engineering"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvEfficiency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Efficiency: 91%"
+            android:textColor="@color/gray_light" />
+
+        <TextView
+            android:id="@+id/tvAttendance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/badge_background_final"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="4dp"
+            android:text="95%"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tvGoalCompletion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="Goal: 93%"
+            android:textColor="@color/gray_light" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

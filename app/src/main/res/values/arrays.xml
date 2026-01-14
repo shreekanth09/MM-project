@@ -1,0 +1,15 @@
+<resources>
+    <string-array name="leave_types">
+        <item>Sick</item>
+        <item>Casual</item>
+        <item>Paid</item>
+        <item>Unpaid</item>
+    </string-array>
+
+    <string-array name="review_types_array">
+        <item>Work Quality</item>
+        <item>Communication</item>
+        <item>Punctuality</item>
+        <item>Teamwork</item>
+    </string-array>
+</resources>
